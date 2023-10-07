@@ -529,12 +529,14 @@ color: #2E2F42;
 
 .mdl-btn-cls .mdl-btn-icn{
     fill: #2E2F42;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                fill 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+
 } 
 
-.mdl-btn-icn{
+/*.mdl-btn-icn{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+}*/
 
 .mdl-btn-cls:hover .mdl-btn-icn, 
 .mdl-btn-cls:focus .mdl-btn-icn{
@@ -552,6 +554,10 @@ color: #2E2F42;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.32px;
     margin-bottom: 16px;
+}
+
+.mdl-input-form{
+    margin-bottom: 8px;
 }
 
 .mdl-input{
@@ -692,7 +698,7 @@ letter-spacing: 0.48px;
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
-    line-height: 1.17px; /* 116.667% */
+    line-height: 1.17; /* 116.667% */
     letter-spacing: 0.48px;
 }
 
@@ -703,7 +709,7 @@ letter-spacing: 0.48px;
 
 .checkbox-box{
     /*display: block;*/
-    display: inline-flex;
+    display: inline-flex; 
     width: 16px;
     height: 16px;
     border-radius: 2px;
