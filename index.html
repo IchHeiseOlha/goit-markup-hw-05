@@ -374,5 +374,58 @@
         </div>
     </footer>
     
+<div class="backdrop is-open">
+    <div class="modal">
+        <button type="button" class="mdl-btn-cls">
+            <svg class="mdl-btn-icn" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+        <p class="modal-title">
+            Leave your contacts and we will call you back
+        </p>
+        <form class="mdl-input-form">
+            <div class="mdl-field">
+                <label for="user-name" class="mdl-label">Name</label>
+                <div class="mdl-inp-reletiv">
+                    <input type="text" 
+                        class="mdl-input" 
+                        id="user-name" 
+                        name="user-name"/>
+                    <svg class="mdl-icon" width="18" height="24">
+                        <use href="./images/icons.svg#icon-person-black"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="mdl-field">
+                <label for="user-phone" class="mdl-label">Phone</label>
+                <div class="mdl-inp-reletiv">
+                    <input type="tel" class="mdl-input" id="user-phone" name="user-phone"/>
+                    <svg class="mdl-icon" width="18" height="24">
+                        <use href="./images/icons.svg#icon-phone-black"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="mdl-field">
+                <label for="user-email" class="mdl-label">E-mail</label>
+                <div class="mdl-inp-reletiv">
+                    <input type="email" class="mdl-input" id="user-email" name="user-email"/>
+                    <svg class="mdl-icon" width="18" height="24">
+                        <use href="./images/icons.svg#icon-email-black"></use>
+                    </svg>
+                </div>  
+            </div>
+            <div class="mdl-field">
+                <label for="user-text" class="mdl-label">Comment</label>
+                <textarea   name="user-text" 
+                            id="user-text" 
+                            class="mdl-textarea"
+                            placeholder="Text input"></textarea>  
+            </div>
+            <button type="submit" class="mdl-btn-send">Send</button>
+        </form>
+    </div>
+</div>
+
 </body>
 </html>
