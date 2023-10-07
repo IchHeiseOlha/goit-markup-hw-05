@@ -395,7 +395,8 @@ color: #2E2F42;
 
 .footer-contaner{
     display: flex;
-    align-items: baseline;
+    justify-content: space-between;
+    align-items: center
     padding: 0 15px;
 
 }
@@ -468,6 +469,66 @@ color: #2E2F42;
     letter-spacing: 0.32px;
     max-width: 264px;
     /*margin-top: 18px;*/
+}
+
+.footer-form{
+    display: flex;
+}
+
+.foot-form-text{
+    background-color: transparent;
+    outline: transparent;
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 24px;
+}
+
+.foot-form-text::placeholder{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2; /* 200% */
+    letter-spacing: 0.48px;
+}
+
+.foot-form-button{
+    width: 165px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    background:#4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    color: #FFF;
+    text-align: center;
+    padding: 0 24px;
+    transition :background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+/* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.64px;
+}
+
+.foot-form-button:hover,
+.foot-form-button:focus{
+    background:#404BBF;
+}
+
+.foot-form-button-icon{
+    fill: #fff;
+    margin-left: 16px;
 }
 
 /*=======================================*/
