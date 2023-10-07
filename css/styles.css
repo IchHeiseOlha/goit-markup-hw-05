@@ -607,7 +607,6 @@ color: #2E2F42;
 
 .mdl-btn-cls:hover .mdl-btn-icn, 
 .mdl-btn-cls:focus .mdl-btn-icn{
-    
     fill: #ffffff;
 }
 
@@ -751,8 +750,8 @@ letter-spacing: 0.48px;
 }
 
 .check-text{
-    display: flex;
-    align-items: center;
+    /*display: flex;
+    align-items: center;*/
     color: #8E8F99;
 /* Small Text */
     font-family: Roboto;
