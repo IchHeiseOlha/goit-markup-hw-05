@@ -483,14 +483,18 @@ color: #2E2F42;
     height: 40px;
     border-radius: 4px;
     border: 1px solid #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     padding-left: 16px;
     padding-right: 16px;
     margin-right: 24px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 1.5; 
+    letter-spacing: 0.04em;
 }
 
 .foot-form-text::placeholder{
-    color: #FFF;
+    color: #ffffff;
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
