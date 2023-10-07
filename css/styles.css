@@ -529,8 +529,7 @@ color: #2E2F42;
 
 .mdl-btn-cls .mdl-btn-icn{
     fill: #2E2F42;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)/*,fill 250ms cubic-bezier(0.4, 0, 0.2, 1)*/;
 
 } 
 
@@ -638,6 +637,9 @@ font-weight: 400;*/
     margin-bottom: 4px;
 }
 
+.mdl-field-textbox{
+    margin-bottom: 16px;
+}
 
 .mdl-icon{
     position: absolute;
