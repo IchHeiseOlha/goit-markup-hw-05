@@ -666,3 +666,47 @@ font-weight: 400;
 line-height: 1.16; /* 116.667% */
 letter-spacing: 0.48px;
 }
+
+.mdl-checkbox{
+    margin-bottom: 24px;
+}
+
+.check-text{
+    display: flex;
+    align-items: center;
+    color: #8E8F99;
+/* Small Text */
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16px; /* 116.667% */
+    letter-spacing: 0.48px;
+}
+
+.check-text-a{
+    color:#4D5AE5;
+    text-decoration-line: underline;
+}
+
+.checkbox-box{
+    /*display: block;*/
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(142, 143, 153, 1);
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.mdl-check:checked + .check-text .checkbox-box{
+    background-color: #404BBF;
+    border: none;
+    fill: rgba(244, 244, 253, 1);
+}
+
+/*.checkbox-box-svg{
+    fill: rgba(244, 244, 253, 1)
+}*/
